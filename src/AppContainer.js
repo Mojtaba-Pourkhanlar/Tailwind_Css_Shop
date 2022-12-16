@@ -1,10 +1,10 @@
 import React from "react";
-import { Header } from "./frontEnd/components/Header";
+import { Container } from "./frontEnd/containers";
 
 const AppContainer = () => {
   return (
     <div>
-      <Header />
+      <Container />
     </div>
   );
 };
